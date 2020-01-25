@@ -18,7 +18,7 @@ public class ObidasMusicPlayer {
         // TODO code application logic here
         SystemChecker sc = new SystemChecker();
         
-        System.out.println(sc.checkJavaVersion());
+        System.out.println(sc.checkerEventFeedback());
     }
     
 }

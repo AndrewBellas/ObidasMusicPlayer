@@ -34,4 +34,21 @@ public class SystemChecker {
         
         return checkValidator;
     }
+    
+    public String checkerEventFeedback(){
+        Boolean confirm = checkJavaVersion();
+        String feedbackMessage = null;
+        
+        if (confirm == false){
+            feedbackMessage = "ERROR: Java version is not detected. Please go to the "
+                    + "Oracle Corporation website and download the latest version of Java.";
+        }
+        
+        if (confirm == true){
+            feedbackMessage = "Java version check validated. Welcome aboard! Your system"
+                    + " is largely compatible with this software!";
+        }
+        
+        return feedbackMessage;
+    }
 }
