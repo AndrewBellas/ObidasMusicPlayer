@@ -9,6 +9,6 @@ package obidasmusicplayer;
  *
  * @author Andrew Bellas
  */
-public class YouTubeViewer {
-    
+public class YouTubeRetrieve {
+    //Used for retrieving specific YouTube videos via the Google API
 }
