@@ -16,6 +16,9 @@ public class ObidasMusicPlayer {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        SystemChecker sc = new SystemChecker();
+        
+        System.out.println(sc.checkJavaVersion());
     }
     
 }
